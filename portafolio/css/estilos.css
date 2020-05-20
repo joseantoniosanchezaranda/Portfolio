@@ -1,0 +1,389 @@
+
+/* Estilos Generales */
+/* ================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+/* ================================== */
+
+/* HEADER */
+/* ================================== */
+
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 25vh 0;
+    background: url('../img/header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    animation: in ;
+    animation-iteration-count: initial;
+    animation-duration: 3s;
+}
+header .title{
+
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+    padding: 15px 0;
+    color: #fff;
+    background: rgba(49,49,49,.9);
+}
+
+header figure{
+    text-align: center;
+    margin: 30px 0;
+}
+
+header figure img{
+    width: 205px;
+     height: 225px; 
+    border-radius: 20px;
+    border: 6px solid rgba(255, 255, 255, .1)
+}
+header .valor{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+/* ================================== */
+
+/* Main */
+
+main{
+    width: 100%;
+    margin-top: 200px;
+}
+
+/* ===ABOUT ME */
+
+.about-me{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgb(214, 214, 214);
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.description{
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.description b{
+    font-weight: 700;       
+}
+
+.social {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social a img{
+    width: 20%;
+    margin: 0px 20px 80px 20px;
+}
+
+
+/* ===characteristics*/
+
+.characteristics{
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.characteristics .characteristic{
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background: rgb(196, 195, 195);
+    transition: all .3s ease;
+}
+
+.characteristics .characteristic:hover{
+    transform: scale(1.1);
+    background: rgb(196, 195, 195);
+}
+
+.characteristics .characteristic .title{
+    font-weight: 700;
+    color: #444;
+    margin: 10px 0;
+}
+
+.characteristics .characteristic .descripcion{
+    font-weight: 300;
+    font-size: .9em;
+    color: #000;
+}
+.characteristics .characteristic .descripcion a{
+    color: #000;
+}
+
+/* ===Projects */
+
+.projects{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+.projects .title{
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+}
+.projects .description{
+    font-weight: 300;
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+}
+
+.projects .cont-projects{
+    width: 100%;
+    padding: 20px;
+    background: rgb(196, 195, 195);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #444;
+}
+
+    .cont-projects h2{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+
+    .cont-projects  p{
+        font-weight: 300;
+    }
+
+    .cont-projects div{
+        background: #F2784B;
+        margin-top: 0px;
+        padding: 15px;
+    }
+
+    .cont-projects div p{
+        display: inline-block;
+        margin: 0px 20px;
+    }
+    
+    .cont-projects div p a{
+        color: #fff;
+    }
+
+
+/* ===Skills  */
+
+.habilidades{
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.habilidades .titulo{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    
+    margin: auto;
+    margin-bottom: 20px;    
+}
+
+.habilidad{
+    width: 25%;
+        text-align: center;
+        margin: 0 10px ;
+        margin-bottom: 30px;
+        padding: 20px;
+        
+        display: flex;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .habilidad img{
+        width: 140px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .habilidad .name{
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+    }
+        
+    
+    
+    
+/* ============================== */
+
+
+/* Footer */
+footer{
+    margin-top: 0px;
+    padding: 0 30px 10px 30px;
+    background: #222;
+   
+}
+.pie{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.pie .hablar{
+    
+    font-size: 3em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.pie .agenda{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+@keyframes in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 800px){
+
+    header .title{
+        font-size: 3em;
+        width: 100%;
+    }
+
+    header .valor{
+        font-size: 1em;
+    }
+
+    main .about-me .social{
+        width: 90%;
+        justify-content: center;
+    }
+
+    main .about-me .social img{
+        width: 40%;
+    }
+
+    main .characteristics .characteristic{
+        margin: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    
+    .project-description div p{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   
+    header .title{
+        font-size: 2em;
+    }
+
+
+    main{
+        margin-top: 150px;
+    }
+
+    main .about-me{
+        background: #fff;
+        margin-bottom: 100px;
+    }
+
+    main .about-me article{
+        width: 90%;
+        font-size: .7em;
+    }
+
+    main .about-me article b{
+        font-size: 1em;
+    }
+
+    main .about-me .social{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main .about-me .social img{
+        width: 40px;
+    }
+
+    main .characteristics{
+        margin-bottom: 150px;
+    }
+
+    main .characteristics .characteristic{
+        width: 90%;
+    }
+
+    main .projects {
+        margin-bottom: 150px;
+    }
+    
+
+    main .habilidades .habilidad{
+        width: 40%;
+    }
+
+    main .habilidad img{
+        width: 100%;
+    }
+
+    footer .pie h2{
+        font-size: 2em;
+    }
+}
